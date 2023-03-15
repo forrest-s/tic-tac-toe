@@ -2,3 +2,8 @@
 name = "tic-tac-toe"
 version = "0.1.0"
 authors = ["Forrest S<thewanderinwolves@gmail.com>"]
+[dependencies]
+wasm-bindgen = "0.2"
+[lib]
+crate-type = ["cdylib", "rlib"]
+path = "src/main.rs"
